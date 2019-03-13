@@ -63,3 +63,6 @@ if __name__ == "__main__":
     df = pd.read_csv("../data/5-1.txt")
     t = DecisionTree(df)
     print(t.tree)
+    df = pd.read_csv("../data/xigua4-1.txt")
+    t = DecisionTree(df)
+    print(t.tree)
